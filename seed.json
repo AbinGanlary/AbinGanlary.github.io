@@ -154,6 +154,16 @@
       "hide": false
     },
     {
+      "repo": "AbinGanlary.github.io",
+      "title": "This website",
+      "blurb": "The resume site you're on: a single HTML page with live GitHub projects, ready to pull its content from Google Sheets through Apps Script. Hosted free on GitHub Pages.",
+      "tags": "Website, JavaScript, Apps Script",
+      "link": "",
+      "group": "",
+      "featured": false,
+      "hide": false
+    },
+    {
       "repo": "yt-music",
       "title": "YT Music",
       "blurb": "Native SwiftUI music player for iPhone with on-device playback, stations, synced lyrics, offline downloads and listening stats.",
