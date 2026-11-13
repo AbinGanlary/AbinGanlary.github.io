@@ -31,6 +31,14 @@ Google Sheet ──(Apps Script web app, JSON)──► index.html on GitHub Pag
 2. The site goes live at `https://abinganlary.github.io` within a minute or two.
 3. Optional: buy a domain and add it under the repo's Settings → Pages → Custom domain.
 
+## Updating the script with clasp (optional)
+The script is also linked to `apps-script/` through clasp (`.clasp.json`, which is git-ignored). After you change `Code.gs`, run these from `apps-script/`:
+```
+npx.cmd @google/clasp@2.4.2 push --force
+npx.cmd @google/clasp@2.4.2 deploy -i AKfycbx9L7jm5WUn-k6TnTRqmbZhVkdgoSWoq2Rhksf4whYBWGVN9V_IiOkNCvrqOzz2-2Tt -d "describe the change"
+```
+Deploying with `-i` keeps the same `/exec` URL, so the site doesn't need changing.
+
 ## Editing day to day
 - **Experience → bullets**: put one bullet per line inside the cell (Ctrl+Enter makes a new line).
 - **show** column: set it to FALSE to hide a row without deleting it.
