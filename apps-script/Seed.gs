@@ -1,0 +1,361 @@
+// Starting content for setup(). Generated from seed.json; edit the Sheet, not this file.
+const SEED = {
+  "profile": {
+    "name": "Abin Khungur Ganlary",
+    "headline": "Operations & Finance professional · Builds apps, web tools & automation with AI",
+    "location": "New Delhi, India",
+    "email": "abinganlary@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/abin-khungur-ganlary-b55b3a277",
+    "github": "AbinGanlary",
+    "photo_url": "",
+    "resume_pdf_url": "",
+    "summary": "8+ years running administration, finance and procurement for international research and donor-funded organisations, and I build the software that makes that work faster. Using AI assistants, I've shipped a desktop finance app, iOS apps, web apps, Excel/VBA automation and Power BI dashboards. I care about clean books, smooth operations and tools people actually use.",
+    "open_to": "Finance & Accounts, Operations, Administration, Procurement, Finance Systems and Process Automation roles",
+    "availability": "Open to opportunities",
+    "palette": "indigo"
+  },
+  "highlights": [
+    {
+      "order": 1,
+      "value": "8+ yrs",
+      "label": "Admin, finance & operations experience"
+    },
+    {
+      "order": 2,
+      "value": "₹3.3 Cr",
+      "label": "Annual project budgets supported"
+    },
+    {
+      "order": 3,
+      "value": "100%",
+      "label": "Compliance across internal, donor & statutory audits"
+    },
+    {
+      "order": 4,
+      "value": "7",
+      "label": "Apps & tools built with AI assistants"
+    },
+    {
+      "order": 5,
+      "value": "15%",
+      "label": "Procurement cost reduction"
+    }
+  ],
+  "builds": [
+    {
+      "order": 1,
+      "kind": "Desktop & web apps",
+      "title": "Tools for real office work",
+      "blurb": "Apps that replace messy spreadsheets: cash book, bank reconciliation, vouchers, job tracking.",
+      "examples": "CashBook, Job Desk"
+    },
+    {
+      "order": 2,
+      "kind": "iOS apps",
+      "title": "Native iPhone apps",
+      "blurb": "SwiftUI apps with widgets, offline storage and on-device processing, built and shipped from Windows.",
+      "examples": "YT Music, Tuck, NXBuilder"
+    },
+    {
+      "order": 3,
+      "kind": "Websites",
+      "title": "Sites people can edit",
+      "blurb": "Fast, free-to-host websites whose content lives in Google Sheets, like this one.",
+      "examples": "This site, Google Apps Script"
+    },
+    {
+      "order": 4,
+      "kind": "Excel & VBA automation",
+      "title": "Spreadsheets that do the work",
+      "blurb": "Trackers and forms with formulas, Power Query and macros that remove manual steps.",
+      "examples": "Budget vs Actual, Leave tracker, Reimbursement forms"
+    },
+    {
+      "order": 5,
+      "kind": "Data & dashboards",
+      "title": "Numbers you can see",
+      "blurb": "KPI dashboards and maps that turn reports into decisions.",
+      "examples": "Power BI, QGIS, KPI trackers"
+    },
+    {
+      "order": 6,
+      "kind": "AI workflows",
+      "title": "AI as a working tool",
+      "blurb": "Using Claude, ChatGPT and Gemini to research, draft, build and test, with the judgement to check the output.",
+      "examples": "Claude, ChatGPT, Gemini"
+    }
+  ],
+  "experience": [
+    {
+      "order": 1,
+      "role": "Officer – Administration",
+      "org": "ICRISAT (International Crops Research Institute for the Semi-Arid Tropics)",
+      "location": "New Delhi",
+      "start": "Feb 2026",
+      "end": "Present",
+      "bullets": "Run the Delhi office cash book, banking and month-end close; send monthly finance summaries with variance analysis and risk flags to HQ.\nSupport donor compliance for World Bank, FAO and Gates Foundation funded projects.\nDesigned and built ICRISAT CashBook, a desktop finance app (cash book, bank reconciliation, vendor bills, petty cash vouchers, multi-PC LAN sync) using AI-assisted development tools; shipped six tested releases.\nProcess purchase requests in NetSuite and ensure approved, timely vendor payments.\nManage fixed assets, logistics, vehicle logs, facilities and front office; supervise the office assistant and drivers."
+    },
+    {
+      "order": 2,
+      "role": "Program Officer – Monitoring & Evaluation",
+      "org": "I-TECH India (University of Washington)",
+      "location": "New Delhi",
+      "start": "Oct 2024",
+      "end": "Oct 2025",
+      "bullets": "Contributed to Sankalak 6th Edition, India's national HIV reporting publication, launched on World AIDS Day 2024.\nValidated SOCH output data with the NACO Strategic Information Division.\nBuilt Power BI dashboards and QGIS HIV-positivity maps at national and district level.\nMaintained monthly KPI dashboards and Excel tools for timesheets and leave tracking.",
+      "show": false
+    },
+    {
+      "order": 3,
+      "role": "Administrative Officer",
+      "org": "I-TECH India (University of Washington)",
+      "location": "New Delhi",
+      "start": "Oct 2023",
+      "end": "Oct 2025",
+      "bullets": "Supported project budgets of up to ₹3.3 Cr with the Finance Manager: Tally Prime entries, POs, payment vouchers, BRS, TDS tracking and month-end close.\nKept donor-wise records in QuickBooks and Excel, filed monthly donor expenditure reports and prepared audit files, achieving full compliance.\nDrafted about 90% of procurement, staff and consultant contracts; ran vendor due diligence, AMCs, lease review and insurance.\nBuilt Excel tools (Budget vs Actual tracker, leave tracker for 20+ staff, reimbursement forms) and Power BI KPI dashboards; a new expense tracking system cut discrepancies by 15%.\nSupported national HIV programme reporting with NACO: validated SOCH data, contributed to Sankalak 6th Edition (2024) and built QGIS district maps.\nSupported Section 8 company and FCRA registration, including the designated SBI FCRA account."
+    },
+    {
+      "order": 4,
+      "role": "Administrative Associate",
+      "org": "I-TECH India (University of Washington)",
+      "location": "New Delhi",
+      "start": "Jan 2022",
+      "end": "Sep 2023",
+      "bullets": "Coordinated 100+ end-to-end travel requests, cutting processing errors by 25%.\nSupported procurement and vendor management with a 15% cost reduction and 10% shorter lead times.\nOrganised logistics for 10+ high-impact events and 20+ meetings and workshops.\nManaged office assets: issuance, movement, insurance, disposal and maintenance."
+    },
+    {
+      "order": 5,
+      "role": "Data Entry Operator (Contractual), Finance & Administration",
+      "org": "Enforcement Directorate, Ministry of Finance, Government of India",
+      "location": "Guwahati, Assam",
+      "start": "Jun 2018",
+      "end": "Dec 2021",
+      "bullets": "Processed payroll, travel allowances and reimbursements through PFMS for 50+ employees under GFR and CVC rules.\nProcured supplies on the GeM portal and helped draft goods and services contracts, cutting procurement costs by 10%.\nPrepared statutory reports for tax, salary, NPS and DA arrears, improving reporting accuracy by 25%."
+    }
+  ],
+  "projects": [
+    {
+      "repo": "cashbook",
+      "title": "CashBook",
+      "blurb": "Petty cash and imprest accounting desktop app for an office finance team: cash book, bank reconciliation, vendor bill summaries, auto-numbered vouchers and LAN sync between PCs. Built with AI-assisted development tools.",
+      "tags": "Finance, React, Tauri, SQLite",
+      "link": "",
+      "group": "",
+      "featured": true,
+      "hide": false
+    },
+    {
+      "repo": "",
+      "title": "Job Desk",
+      "blurb": "Personal job-search workspace: CV organiser, application tracker, a chat per job, and tailored resume and cover-letter export to Word.",
+      "tags": "Web app, AI, Productivity",
+      "link": "",
+      "group": "",
+      "featured": false,
+      "hide": false
+    },
+    {
+      "repo": "yt-music",
+      "title": "YT Music",
+      "blurb": "Native SwiftUI music player for iPhone with on-device playback, stations, synced lyrics, offline downloads and listening stats.",
+      "tags": "iOS, SwiftUI",
+      "link": "",
+      "group": "Side projects & hobbies",
+      "featured": false,
+      "hide": false
+    },
+    {
+      "repo": "Tuck",
+      "title": "Tuck",
+      "blurb": "Folders of apps as iPhone Home Screen widgets: one tap to launch.",
+      "tags": "iOS, Widgets",
+      "link": "",
+      "group": "Side projects & hobbies",
+      "featured": false,
+      "hide": false
+    },
+    {
+      "repo": "NXBuilder",
+      "title": "NXBuilder",
+      "blurb": "iPhone app that packages your own game files into installable apps on the phone itself, with no Mac needed.",
+      "tags": "iOS, Swift, Tooling",
+      "link": "",
+      "group": "Side projects & hobbies",
+      "featured": false,
+      "hide": false
+    },
+    {
+      "repo": "first-desk",
+      "title": "First Desk",
+      "blurb": "Office career game for freshers: learn real admin and finance work through day-to-day tasks.",
+      "tags": "Game, TypeScript, Learning",
+      "link": "",
+      "group": "Side projects & hobbies",
+      "featured": false,
+      "hide": false
+    },
+    {
+      "repo": "open-source-ios-apps",
+      "title": "",
+      "blurb": "",
+      "tags": "",
+      "link": "",
+      "group": "",
+      "featured": false,
+      "hide": true
+    }
+  ],
+  "recognition": [
+    {
+      "order": 1,
+      "title": "Sankalak: Status of National AIDS & STD Response, 6th Edition",
+      "role": "Listed contributor, Technical Support",
+      "source": "National AIDS Control Organization (NACO), Ministry of Health & Family Welfare, Government of India",
+      "year": "2024",
+      "link": "https://naco.mohfw.gov.in/files/Sankalak%20Booklet_Electronic%20version_II.pdf"
+    },
+    {
+      "order": 2,
+      "title": "Looking back to see forward: multidirectional learning between the US Ryan White HIV/AIDS Program and PEPFAR",
+      "role": "Acknowledged for participation in global health reciprocal innovation (GHRI) group discussions",
+      "source": "Patel-Larson A, Ledikwe JH, et al. BMJ Global Health 8 (Suppl 7): e013953",
+      "year": "2024",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10897372/"
+    }
+  ],
+  "skills": [
+    {
+      "order": 1,
+      "category": "Finance & Accounting",
+      "items": "Tally Prime, QuickBooks, NetSuite, PFMS, Bank reconciliation, TDS tracking, Month-end close, Budget vs Actual, Donor financial reporting, FCRA compliance"
+    },
+    {
+      "order": 2,
+      "category": "Building & Automation",
+      "items": "AI-assisted development, React, Tauri, SwiftUI, HTML/CSS/JavaScript, Google Apps Script, Excel VBA & Power Query, SQLite"
+    },
+    {
+      "order": 3,
+      "category": "Procurement & Contracts",
+      "items": "End-to-end procurement, Bid analysis, Vendor due diligence, GeM portal, Contract drafting, AMC management, GST (working knowledge)"
+    },
+    {
+      "order": 4,
+      "category": "Operations & Admin",
+      "items": "Facilities management, Travel & event logistics, Asset & inventory registers, Lease & insurance coordination, HR records, Team supervision"
+    },
+    {
+      "order": 5,
+      "category": "Data & Reporting",
+      "items": "Advanced Excel (Power Query, Pivot Tables, VBA), Power BI, QGIS, KPI dashboards"
+    },
+    {
+      "order": 6,
+      "category": "Tools",
+      "items": "Google Workspace, Microsoft Office, Claude, ChatGPT, Gemini, GitHub"
+    }
+  ],
+  "education": [
+    {
+      "order": 1,
+      "title": "ACCA",
+      "school": "Association of Chartered Certified Accountants",
+      "dates": "In progress",
+      "note": "Working through the Financial Accounting (FA) paper"
+    },
+    {
+      "order": 2,
+      "title": "MBA – Finance",
+      "school": "Manipal University Jaipur",
+      "dates": "2023 – 2025",
+      "note": ""
+    },
+    {
+      "order": 3,
+      "title": "B.Com – Finance",
+      "school": "Guwahati College",
+      "dates": "2016 – 2019",
+      "note": ""
+    }
+  ],
+  "certifications": [
+    {
+      "order": 1,
+      "name": "SAP ERP Essential Training",
+      "issuer": "LinkedIn Learning",
+      "date": "Jun 2025"
+    },
+    {
+      "order": 2,
+      "name": "Certificate in Public Procurement",
+      "issuer": "iNet / World Bank Group",
+      "date": "May 2025"
+    },
+    {
+      "order": 3,
+      "name": "GHG Accounting 101",
+      "issuer": "World Bank Group",
+      "date": "Apr 2025"
+    },
+    {
+      "order": 4,
+      "name": "Financial Management Essentials",
+      "issuer": "NonprofitReady",
+      "date": "Mar 2024"
+    },
+    {
+      "order": 5,
+      "name": "Project Management in Global Health",
+      "issuer": "University of Washington",
+      "date": "Sep 2023"
+    },
+    {
+      "order": 6,
+      "name": "Introduction to Financial Analysis",
+      "issuer": "University of Illinois (Coursera)",
+      "date": "Jun 2023"
+    },
+    {
+      "order": 7,
+      "name": "Leadership and Management in Health",
+      "issuer": "University of Washington",
+      "date": "Jan 2023"
+    },
+    {
+      "order": 8,
+      "name": "Complete Accounting & Taxation",
+      "issuer": "Udemy",
+      "date": "Sep 2022"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Bodo",
+      "level": "Native"
+    },
+    {
+      "language": "English",
+      "level": "Fluent"
+    },
+    {
+      "language": "Hindi",
+      "level": "Fluent"
+    },
+    {
+      "language": "Assamese",
+      "level": "Fluent"
+    },
+    {
+      "language": "Nagamese",
+      "level": "Conversational"
+    },
+    {
+      "language": "Nepali",
+      "level": "Basic"
+    },
+    {
+      "language": "Bengali",
+      "level": "Basic"
+    }
+  ]
+};

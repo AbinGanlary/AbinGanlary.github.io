@@ -1,0 +1,594 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abin Khungur Ganlary · Operations, Finance & AI-built Apps</title>
+<meta name="description" content="Abin Khungur Ganlary: operations and finance professional in New Delhi who builds apps, web tools and automation with AI assistants. Resume, projects and contact.">
+<meta property="og:title" content="Abin Khungur Ganlary · Operations, Finance & AI-built Apps">
+<meta property="og:description" content="8+ years in finance and operations, plus desktop, iOS and web apps and Excel automation built with AI. Resume, projects and contact.">
+<meta property="og:type" content="profile">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f5e5a'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' fill='%23f6f3ee' text-anchor='middle'%3EAG%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f6f3ee; --surface: #fffdf9; --ink: #1c1a17; --muted: #6a645b; --line: #e3ddd2;
+    --accent: #0f5e5a; --accent-soft: #e2efec; --chip: #efe9df; --glow: #9fd3cb; --shadow: 0 1px 2px rgba(28,26,23,.06), 0 8px 24px rgba(28,26,23,.05);
+    --serif: "Fraunces", Georgia, serif; --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #141312; --surface: #1c1b19; --ink: #f1ede6; --muted: #a49d92; --line: #2e2c28;
+      --accent: #6cc3b8; --accent-soft: #1d3330; --chip: #26241f; --shadow: none;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #141312; --surface: #1c1b19; --ink: #f1ede6; --muted: #a49d92; --line: #2e2c28;
+    --accent: #6cc3b8; --accent-soft: #1d3330; --chip: #26241f; --shadow: none;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 var(--sans); -webkit-font-smoothing: antialiased; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+
+  /* nav */
+  nav { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  nav .wrap { display: flex; align-items: center; gap: 20px; height: 56px; }
+  .brand { font-family: var(--serif); font-weight: 600; font-size: 18px; color: var(--ink); text-decoration: none; margin-right: auto; white-space: nowrap; }
+  nav .links { display: flex; gap: 18px; font-size: 14px; }
+  nav .links a { color: var(--muted); text-decoration: none; }
+  nav .links a:hover { color: var(--ink); }
+  .icon-btn { background: none; border: 1px solid var(--line); color: var(--ink); border-radius: 8px; width: 34px; height: 34px; cursor: pointer; display: grid; place-items: center; }
+  @media (max-width: 720px) { nav .links { display: none; } }
+
+  html, body { overflow-x: clip; }
+
+  /* hero + aurora */
+  header.hero { padding: 84px 0 44px; position: relative; isolation: isolate; }
+  .aurora { position: absolute; z-index: -1; top: -56px; bottom: -40px; left: calc(50% - 50vw); right: calc(50% - 50vw); overflow: hidden; pointer-events: none;
+    -webkit-mask-image: linear-gradient(to bottom, #000 55%, transparent); mask-image: linear-gradient(to bottom, #000 55%, transparent); }
+  .aurora i { position: absolute; border-radius: 50%; filter: blur(70px); will-change: transform; }
+  .aurora i:nth-child(1) { width: 46vw; height: 46vw; max-width: 640px; max-height: 640px; right: -6vw; top: -18vw; background: var(--glow); opacity: .55; animation: drift1 22s ease-in-out infinite alternate; }
+  .aurora i:nth-child(2) { width: 34vw; height: 34vw; max-width: 480px; max-height: 480px; right: 22vw; top: 4vw; background: var(--accent); opacity: .18; animation: drift2 26s ease-in-out infinite alternate; }
+  .aurora i:nth-child(3) { width: 40vw; height: 30vw; max-width: 560px; max-height: 420px; left: -10vw; top: -6vw; background: var(--accent-soft); opacity: .9; animation: drift3 30s ease-in-out infinite alternate; }
+  @keyframes drift1 { to { transform: translate(-12vw, 8vw) scale(1.15); } }
+  @keyframes drift2 { to { transform: translate(14vw, -4vw) scale(.85); } }
+  @keyframes drift3 { to { transform: translate(10vw, 6vw) scale(1.2) rotate(20deg); } }
+  h1 .grad { background: linear-gradient(100deg, var(--ink) 30%, var(--accent)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+
+  /* bento */
+  .bento { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-flow: dense; gap: 14px; margin: 4px 0 56px; }
+  .tile { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 20px; box-shadow: var(--shadow); overflow: hidden; color: inherit; text-decoration: none; display: flex; flex-direction: column; }
+  .tile.w2 { grid-column: span 2; } .tile.h2 { grid-row: span 2; }
+  .tile .k { font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+  .tile.stat b { font-family: var(--serif); font-size: clamp(30px, 3.4vw, 40px); font-weight: 600; color: var(--accent); line-height: 1; margin-top: auto; font-variant-numeric: tabular-nums; }
+  .tile.stat span { font-size: 13.5px; color: var(--muted); margin-top: 8px; }
+  .tile.now h3 { margin: 0; font-size: 20px; font-family: var(--serif); font-weight: 600; }
+  .tile.now p { margin: 4px 0 0; color: var(--muted); font-size: 14px; }
+  .pulse { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #22a06b; margin-right: 6px; box-shadow: 0 0 0 0 rgba(34,160,107,.5); animation: pulse 2.4s infinite; }
+  @keyframes pulse { 70% { box-shadow: 0 0 0 8px rgba(34,160,107,0); } 100% { box-shadow: 0 0 0 0 rgba(34,160,107,0); } }
+  .tile.feat { background: linear-gradient(150deg, var(--surface) 35%, color-mix(in srgb, var(--glow) 45%, var(--surface))); }
+  .tile.feat h3 { margin: 0 0 8px; font-family: var(--serif); font-size: 26px; font-weight: 600; }
+  .tile.feat p { margin: 0 0 16px; color: var(--muted); font-size: 14.5px; flex: 1; }
+  .tile.feat .go { font-weight: 600; font-size: 14px; color: var(--accent); }
+  a.tile, .proj { transition: transform .25s cubic-bezier(.2,.7,.2,1), border-color .2s; }
+  a.tile:hover { transform: translateY(-3px); border-color: var(--accent); }
+  /* cursor spotlight */
+  .spot::after { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; opacity: 0; transition: opacity .3s;
+    background: radial-gradient(360px circle at var(--mx, 50%) var(--my, 50%), color-mix(in srgb, var(--accent) 12%, transparent), transparent 60%); }
+  .spot:hover::after { opacity: 1; }
+  @media (max-width: 860px) { .bento { grid-template-columns: repeat(2, 1fr); } }
+
+  /* scroll reveal (only once JS confirms motion is OK) */
+  .motion .rv { opacity: 0; transform: translateY(22px); transition: opacity .8s cubic-bezier(.2,.7,.2,1), transform .8s cubic-bezier(.2,.7,.2,1); transition-delay: var(--d, 0s); }
+  .motion .rv.in { opacity: 1; transform: none; }
+
+  /* hero (text) */
+  .eyebrow { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; color: var(--accent); background: var(--accent-soft); padding: 4px 12px; border-radius: 999px; font-weight: 500; }
+  .eyebrow::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
+  h1 { font-family: var(--serif); font-weight: 600; font-size: clamp(38px, 6vw, 64px); line-height: 1.05; letter-spacing: -0.02em; margin: 20px 0 10px; }
+  .headline { font-size: clamp(18px, 2.4vw, 22px); color: var(--muted); margin: 0 0 22px; }
+  .summary { max-width: 680px; font-size: 17px; margin: 0 0 28px; }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px 18px; color: var(--muted); font-size: 14px; margin-bottom: 28px; }
+  .cta { display: flex; flex-wrap: wrap; gap: 10px; }
+  .btn { display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; border-radius: 10px; font: 500 14px var(--sans); text-decoration: none; border: 1px solid var(--line); color: var(--ink); background: var(--surface); cursor: pointer; }
+  .btn:hover { border-color: var(--muted); }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+  .btn svg { width: 16px; height: 16px; }
+
+  /* highlights */
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin: 8px 0 24px; }
+  .stat { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px; box-shadow: var(--shadow); }
+  .stat b { display: block; font-family: var(--serif); font-size: 30px; font-weight: 600; color: var(--accent); line-height: 1.1; }
+  .stat span { font-size: 13.5px; color: var(--muted); }
+
+  /* sections */
+  section { padding: 48px 0; border-top: 1px solid var(--line); }
+  .sec-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 24px; flex-wrap: wrap; }
+  h2 { font-family: var(--serif); font-weight: 600; font-size: 30px; margin: 0; letter-spacing: -0.01em; }
+  .sec-head p { margin: 0; color: var(--muted); font-size: 14px; }
+
+  /* experience: timeline line fills as you scroll */
+  .timeline { display: grid; gap: 14px; position: relative; padding-left: 36px; }
+  .timeline::before, .tl-fill { content: ""; position: absolute; left: 11px; top: 8px; width: 2px; border-radius: 2px; }
+  .timeline::before { bottom: 8px; background: var(--line); }
+  .tl-fill { height: calc((100% - 16px) * var(--p, 0)); background: linear-gradient(var(--accent), var(--glow)); box-shadow: 0 0 12px var(--glow); }
+  .job { position: relative; }
+  .job::before { content: ""; position: absolute; left: -31px; top: 26px; width: 12px; height: 12px; border-radius: 50%; background: var(--bg); border: 2px solid var(--line); transition: all .4s; }
+  .job.on::before { background: var(--accent); border-color: var(--accent); box-shadow: 0 0 0 5px color-mix(in srgb, var(--accent) 18%, transparent); }
+  .job { display: grid; grid-template-columns: 170px 1fr; gap: 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 22px 24px; box-shadow: var(--shadow); }
+  .job .when { color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
+  .job .when .loc { display: block; font-size: 13px; margin-top: 2px; }
+  .job h3 { margin: 0; font-size: 18px; font-weight: 600; }
+  .job .org { color: var(--accent); font-weight: 500; font-size: 15px; margin: 2px 0 10px; }
+  .job ul { margin: 0; padding-left: 18px; }
+  .job li { margin: 4px 0; font-size: 15px; }
+  .job.current { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
+  @media (max-width: 720px) { .job { grid-template-columns: 1fr; gap: 6px; padding: 18px; } }
+
+  /* projects */
+  .projects { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 14px; }
+  .proj { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 20px; box-shadow: var(--shadow); text-decoration: none; color: inherit; transition: border-color .15s, transform .15s; }
+  .proj:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .proj.featured { grid-column: span 2; background: linear-gradient(135deg, var(--surface), var(--accent-soft)); }
+  @media (max-width: 640px) { .proj.featured { grid-column: auto; } }
+  .proj h3 { margin: 0 0 6px; font-size: 17px; display: flex; align-items: center; gap: 8px; }
+  .proj .badge { font-size: 11px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--accent); background: var(--accent-soft); padding: 2px 8px; border-radius: 999px; }
+  .proj p { margin: 0 0 14px; font-size: 14.5px; color: var(--muted); flex: 1; }
+  .proj .foot { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; font-size: 13px; color: var(--muted); }
+  .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; margin-right: 5px; vertical-align: middle; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { background: var(--chip); border-radius: 999px; padding: 4px 11px; font-size: 13.5px; }
+
+  /* skills / education */
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 720px) { .grid2 { grid-template-columns: 1fr; } }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 20px; box-shadow: var(--shadow); }
+  .card h3 { margin: 0 0 12px; font-size: 15px; font-weight: 600; }
+  .list { list-style: none; margin: 0; padding: 0; }
+  .list li { display: flex; justify-content: space-between; gap: 16px; padding: 10px 0; border-top: 1px solid var(--line); font-size: 15px; }
+  .list li:first-child { border-top: 0; padding-top: 0; }
+  .list small { display: block; color: var(--muted); font-size: 13px; }
+  .list .r { color: var(--muted); font-size: 13.5px; white-space: nowrap; text-align: right; }
+
+  /* contact */
+  form { display: grid; gap: 12px; max-width: 620px; }
+  .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  @media (max-width: 560px) { .row2 { grid-template-columns: 1fr; } }
+  label { font-size: 13px; color: var(--muted); display: grid; gap: 4px; }
+  input, textarea { font: 15px var(--sans); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; width: 100%; }
+  input:focus, textarea:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: transparent; }
+  textarea { min-height: 130px; resize: vertical; }
+  .hp { position: absolute; left: -9999px; }
+  .status { font-size: 14px; min-height: 1.4em; }
+  .status.ok { color: var(--accent); } .status.err { color: #b3402a; }
+
+  footer { padding: 32px 0 48px; color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); }
+  footer .wrap { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+
+  .skeleton { color: var(--muted); padding: 120px 0; text-align: center; }
+
+  .builds { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  .tile.build h3 { margin: 0 0 6px; font-size: 18px; font-family: var(--serif); font-weight: 600; }
+  .tile.build p { margin: 0 0 14px; font-size: 14.5px; color: var(--muted); flex: 1; }
+  .tile.build .num { color: var(--accent); margin-right: 8px; font-variant-numeric: tabular-nums; }
+  .tile.build:nth-child(1), .tile.build:nth-child(2) { background: linear-gradient(160deg, var(--surface) 50%, color-mix(in srgb, var(--glow) 30%, var(--surface))); }
+  @media (max-width: 860px) { .builds { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 560px) { .builds { grid-template-columns: 1fr; } }
+  .recog { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 720px) { .recog { grid-template-columns: 1fr; } }
+  .tile.rec .k { text-transform: none; letter-spacing: 0; font-size: 13px; color: var(--accent); }
+  .tile.rec h3 { margin: 0 0 8px; font-family: var(--serif); font-size: 19px; font-weight: 600; line-height: 1.3; }
+  .tile.rec p { margin: 0 0 14px; font-size: 14px; color: var(--muted); flex: 1; }
+  .tile.rec .go { font-weight: 600; font-size: 14px; color: var(--accent); }
+  h3.sub { font-size: 13px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 28px 0 12px; }
+  h3.sub:first-child { margin-top: 0; }
+  .proj .badge.private { color: var(--muted); background: var(--chip); }
+  .proj.nolink:hover { transform: none; border-color: var(--line); }
+  .skills-bento { display: grid; grid-template-columns: repeat(3, 1fr); grid-auto-flow: dense; gap: 14px; }
+  .skills-bento .wide { grid-column: span 2; }
+  @media (max-width: 720px) { .skills-bento { grid-template-columns: 1fr; } .skills-bento .wide { grid-column: auto; } }
+
+  @media (prefers-reduced-motion: reduce) {
+    .aurora i, .pulse { animation: none !important; }
+    .motion .rv { opacity: 1; transform: none; transition: none; }
+    html { scroll-behavior: auto; }
+  }
+
+  /* print = one clean resume */
+  @media print {
+    nav, .cta, #contact, #build, footer, .icon-btn, #projects .foot, .eyebrow, .aurora, .tl-fill, .tile.feat, .tile.now, .tile.place, .job::before, .timeline::before { display: none !important; }
+    .rv { opacity: 1 !important; transform: none !important; }
+    .timeline { padding-left: 0; }
+    h1 .grad { color: #000; background: none; }
+    .bento { grid-template-columns: repeat(5, 1fr); margin: 0 0 8px; }
+    .tile { box-shadow: none; border: 0; padding: 4px 0; background: none; }
+    body { background: #fff; color: #000; font-size: 11pt; }
+    header.hero { padding: 0 0 8px; }
+    h1 { font-size: 26pt; margin: 0 0 4px; } .headline { margin-bottom: 8px; }
+    section { padding: 12px 0; break-inside: auto; }
+    .job, .card, .stat, .proj { box-shadow: none; border: 0; padding: 6px 0; background: none; break-inside: avoid; }
+    .job { grid-template-columns: 130px 1fr; }
+    .stats { grid-template-columns: repeat(5, 1fr); }
+    .proj.featured { grid-column: auto; }
+    a { color: #000; text-decoration: none; }
+  }
+</style>
+<script>
+/* Palettes from colorhunt.co, tuned for WCAG AA contrast. Pick one with the "palette" key in the
+   Sheet's Profile tab, or try them with ?palette=forest|harbor|navy|copper|indigo|original (add &pick=1 for a switcher). */
+const PALETTES = {
+  forest: { light: {"bg": "#f5f0e6", "surface": "#fffdf8", "ink": "#1b2620", "muted": "#5c6455", "line": "#e2dacb", "accent": "#1e3b2f", "accent-soft": "#e3e7da", "chip": "#ede5d3", "glow": "#c8b48a"}, dark: {"bg": "#111915", "surface": "#17221c", "ink": "#f2ede2", "muted": "#a9ae9d", "line": "#283630", "accent": "#c8b48a", "accent-soft": "#2a3328", "chip": "#202c25", "glow": "#7f8c6a"} },
+  harbor: { light: {"bg": "#f3f5f5", "surface": "#ffffff", "ink": "#071b2b", "muted": "#4c5e6c", "line": "#dde5e7", "accent": "#136f7d", "accent-soft": "#dcf0f2", "chip": "#e7edef", "glow": "#b9e4e8"}, dark: {"bg": "#071b2b", "surface": "#0c2536", "ink": "#eef3f5", "muted": "#93a8b5", "line": "#1a394c", "accent": "#b9e4e8", "accent-soft": "#103748", "chip": "#112f41", "glow": "#167d8d"} },
+  navy: { light: {"bg": "#f5f8fb", "surface": "#ffffff", "ink": "#14243c", "muted": "#53637a", "line": "#dce4ee", "accent": "#005a9c", "accent-soft": "#def2f8", "chip": "#e8eef5", "glow": "#a0e0ef"}, dark: {"bg": "#0d1829", "surface": "#13223a", "ink": "#eaf1f8", "muted": "#9aadc4", "line": "#22355a", "accent": "#60c1e5", "accent-soft": "#163150", "chip": "#192b46", "glow": "#005a9c"} },
+  copper: { light: {"bg": "#fdf6ec", "surface": "#fffcf7", "ink": "#2a1a0e", "muted": "#6d5846", "line": "#eedfc9", "accent": "#a84a14", "accent-soft": "#fbe6cb", "chip": "#f5e7d3", "glow": "#f4ae52"}, dark: {"bg": "#1b120a", "surface": "#251a10", "ink": "#fef3e2", "muted": "#c0a88d", "line": "#3a2a1b", "accent": "#f4ae52", "accent-soft": "#3a2714", "chip": "#2f2111", "glow": "#d4621a"} },
+  indigo: { light: {"bg": "#fcf9ec", "surface": "#fffef8", "ink": "#00105b", "muted": "#545987", "line": "#e8e3d2", "accent": "#5354a8", "accent-soft": "#ece5f6", "chip": "#f1ecdd", "glow": "#c9b5e0"}, dark: {"bg": "#090e31", "surface": "#101743", "ink": "#f3f1fa", "muted": "#a7a9d0", "line": "#232b5e", "accent": "#c9b5e0", "accent-soft": "#242b62", "chip": "#1b2254", "glow": "#6061b6"} },
+  original: { light: {"bg": "#f6f3ee", "surface": "#fffdf9", "ink": "#1c1a17", "muted": "#6a645b", "line": "#e3ddd2", "accent": "#0f5e5a", "accent-soft": "#e2efec", "chip": "#efe9df", "glow": "#9fd3cb"}, dark: {"bg": "#141312", "surface": "#1c1b19", "ink": "#f1ede6", "muted": "#a49d92", "line": "#2e2c28", "accent": "#6cc3b8", "accent-soft": "#1d3330", "chip": "#26241f", "glow": "#0f5e5a"} }
+};
+const DEFAULT_PALETTE = "indigo";
+let currentPalette = (() => { try { return new URLSearchParams(location.search).get("palette") || localStorage.getItem("palette") || DEFAULT_PALETTE; } catch { return DEFAULT_PALETTE; } })();
+function applyPalette(name) {
+  if (!PALETTES[name]) name = DEFAULT_PALETTE;
+  currentPalette = name;
+  const root = document.documentElement;
+  const dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  for (const [k, v] of Object.entries(PALETTES[name][dark ? "dark" : "light"])) root.style.setProperty("--" + k, v);
+  root.dataset.palette = name;
+  try { localStorage.setItem("palette", name); } catch {}
+}
+try { const t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch {}
+applyPalette(currentPalette);
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => applyPalette(currentPalette));
+</script>
+</head>
+<body>
+<nav>
+  <div class="wrap">
+    <a class="brand" href="#top" id="brand">Resume</a>
+    <div class="links">
+      <a href="#build">What I build</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a>
+    </div>
+    <button class="icon-btn" id="theme" aria-label="Toggle dark mode" title="Toggle dark mode">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+  </div>
+</nav>
+
+<main id="top" class="wrap"><div class="skeleton" id="app">Loading…</div></main>
+
+<footer><div class="wrap"><span id="foot-name"></span><span id="foot-updated"></span></div></footer>
+
+<script>
+/* ======== CONFIG ======== */
+const CONFIG = {
+  // Paste your Apps Script web app URL (ends in /exec). Empty = use seed.json.
+  API_URL: "",
+  // Fallback if the Sheet's Profile tab has no "github" key.
+  GITHUB_USER: "AbinGanlary",
+};
+/* ======================== */
+
+const $ = (s, el = document) => el.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const truthy = (v, d = false) => (v === "" || v == null ? d : typeof v === "boolean" ? v : !/^(false|no|0|n|hide)$/i.test(String(v).trim()));
+const splitList = (s, sep) => String(s || "").split(sep).map((x) => x.trim()).filter(Boolean);
+const safeUrl = (u) => (/^(https?:|mailto:)/i.test(String(u || "").trim()) ? String(u).trim() : "");
+const store = { get(k) { try { return JSON.parse(sessionStorage.getItem(k)); } catch { return null; } }, set(k, v) { try { sessionStorage.setItem(k, JSON.stringify(v)); } catch {} } };
+
+const ICON = {
+  mail: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>',
+  in: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.6 8.65 21 11.2 21 14.5V21h-4v-5.8c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1V21H9z"/></svg>',
+  gh: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.7 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5z"/></svg>',
+  doc: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M9 14h6M9 18h6"/></svg>',
+  star: '<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:-2px"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>',
+};
+const LANG_COLOR = { Swift: "#F05138", JavaScript: "#f1e05a", TypeScript: "#3178c6", Python: "#3572A5", Rust: "#dea584", HTML: "#e34c26", CSS: "#563d7c", Kotlin: "#A97BFF", Java: "#b07219", "C#": "#178600", Go: "#00ADD8" };
+
+async function loadSite() {
+  if (CONFIG.API_URL) {
+    try {
+      const r = await fetch(CONFIG.API_URL, { redirect: "follow" });
+      if (r.ok) { const d = await r.json(); store.set("site", d); return d; }
+    } catch (e) { console.warn("Sheet API failed, using fallback", e); }
+    const cached = store.get("site"); if (cached) return cached;
+  }
+  return (await fetch("seed.json")).json();
+}
+
+async function loadRepos(user) {
+  if (!user) return [];
+  const key = "repos:" + user, cached = store.get(key);
+  if (cached && Date.now() - cached.t < 30 * 60e3) return cached.d;
+  try {
+    const r = await fetch(`https://api.github.com/users/${encodeURIComponent(user)}/repos?per_page=100&sort=updated`);
+    if (!r.ok) throw new Error(r.status);
+    const d = (await r.json()).filter((x) => !x.fork && !x.archived && !x.private)
+      .map(({ name, description, html_url, homepage, language, stargazers_count, pushed_at, topics }) => ({ name, description, html_url, homepage, language, stargazers_count, pushed_at, topics }));
+    store.set(key, { t: Date.now(), d });
+    return d;
+  } catch (e) { console.warn("GitHub API failed", e); return cached ? cached.d : []; }
+}
+
+function mergeProjects(repos, rows) {
+  const meta = new Map((rows || []).map((r) => [String(r.repo || r.title || "").toLowerCase(), r]));
+  const out = repos.map((g) => {
+    const m = meta.get(g.name.toLowerCase()) || {};
+    meta.delete(g.name.toLowerCase());
+    return {
+      title: m.title || g.name, blurb: m.blurb || g.description || "", url: safeUrl(m.link) || g.homepage || g.html_url, repoUrl: g.html_url,
+      tags: m.tags ? splitList(m.tags, ",") : (g.topics || []).slice(0, 4), lang: g.language, stars: g.stargazers_count,
+      updated: g.pushed_at, featured: truthy(m.featured), hide: truthy(m.hide), group: String(m.group || "").trim(),
+    };
+  });
+  // Sheet rows with no matching public repo: private repos or non-GitHub work. Shown with or without a link.
+  for (const m of meta.values()) {
+    if (!m.title) continue;
+    out.push({ title: m.title, blurb: m.blurb || "", url: safeUrl(m.link), tags: splitList(m.tags, ","), featured: truthy(m.featured), hide: truthy(m.hide), group: String(m.group || "").trim() });
+  }
+  return out.filter((p) => !p.hide).sort((a, b) => (b.featured - a.featured) || ((b.stars || 0) - (a.stars || 0)) || String(b.updated || "").localeCompare(String(a.updated || "")));
+}
+
+const ago = (iso) => {
+  if (!iso) return "";
+  const days = Math.floor((Date.now() - new Date(iso)) / 864e5);
+  return days < 1 ? "updated today" : days < 30 ? `updated ${days}d ago` : days < 365 ? `updated ${Math.floor(days / 30)}mo ago` : `updated ${Math.floor(days / 365)}y ago`;
+};
+
+function render(d, projects) {
+  const p = d.profile || {};
+  const gh = p.github || CONFIG.GITHUB_USER;
+  document.title = `${p.name} · ${p.headline || "Resume"}`;
+  $("#brand").textContent = p.name || "Resume";
+  $("#foot-name").textContent = `© ${new Date().getFullYear()} ${p.name || ""}`;
+  $("#foot-updated").textContent = "Content managed in Google Sheets";
+
+  const cta = [
+    p.email && `<a class="btn primary" href="mailto:${esc(p.email)}">${ICON.mail}Email me</a>`,
+    safeUrl(p.linkedin) && `<a class="btn" href="${esc(safeUrl(p.linkedin))}" target="_blank" rel="noopener">${ICON.in}LinkedIn</a>`,
+    gh && `<a class="btn" href="https://github.com/${esc(gh)}" target="_blank" rel="noopener">${ICON.gh}GitHub</a>`,
+    safeUrl(p.resume_pdf_url)
+      ? `<a class="btn" href="${esc(safeUrl(p.resume_pdf_url))}" target="_blank" rel="noopener">${ICON.doc}Download CV</a>`
+      : `<button class="btn" onclick="print()">${ICON.doc}Save as PDF</button>`,
+  ].filter(Boolean).join("");
+
+  const jobs = (d.experience || []).map((j, i) => `
+    <article class="job spot rv${/present/i.test(j.end) ? " current" : ""}">
+      <div class="when">${esc(j.start)} – ${esc(j.end)}<span class="loc">${esc(j.location)}</span></div>
+      <div><h3>${esc(j.role)}</h3><div class="org">${esc(j.org)}</div>
+        <ul>${splitList(j.bullets, /\n/).map((b) => `<li>${esc(b.replace(/^[-•]\s*/, ""))}</li>`).join("")}</ul></div>
+    </article>`).join("");
+
+  const card = (x) => {
+    const tag = x.url ? "a" : "div";
+    const href = x.url ? ` href="${esc(x.url)}" target="_blank" rel="noopener"` : "";
+    return `
+    <${tag} class="proj spot rv${x.featured ? " featured" : ""}${x.url ? "" : " nolink"}" style="position:relative;overflow:hidden"${href}>
+      <h3>${esc(x.title)}${x.featured ? '<span class="badge">Featured</span>' : ""}${x.url ? "" : '<span class="badge private">Private</span>'}</h3>
+      <p>${esc(x.blurb)}</p>
+      ${x.tags.length ? `<div class="chips" style="margin-bottom:12px">${x.tags.map((t) => `<span class="chip">${esc(t)}</span>`).join("")}</div>` : ""}
+      <div class="foot">
+        ${x.lang ? `<span><i class="dot" style="background:${LANG_COLOR[x.lang] || "#999"}"></i>${esc(x.lang)}</span>` : ""}
+        ${x.stars ? `<span>${ICON.star} ${x.stars}</span>` : ""}
+        ${x.updated ? `<span>${ago(x.updated)}</span>` : ""}
+      </div>
+    </${tag}>`;
+  };
+  // Group projects: ungrouped rows first ("Work & productivity"), then each named group in Sheet order.
+  const groups = [];
+  for (const x of projects) {
+    const g = x.group || "Work & productivity";
+    let entry = groups.find((e) => e.name === g);
+    if (!entry) groups.push((entry = { name: g, items: [] }));
+    entry.items.push(x);
+  }
+  groups.sort((a, b) => (a.name === "Work & productivity" ? -1 : b.name === "Work & productivity" ? 1 : 0));
+  const projHtml = projects.length
+    ? groups.map((g) => `${groups.length > 1 ? `<h3 class="sub">${esc(g.name)}</h3>` : ""}<div class="projects">${g.items.map(card).join("")}</div>`).join("")
+    : `<p style="color:var(--muted)">Projects will appear here from GitHub.</p>`;
+
+  const recog = (d.recognition || []).map((r) => {
+    const url = safeUrl(r.link), tag = url ? "a" : "div";
+    return `<${tag} class="tile rec spot rv"${url ? ` href="${esc(url)}" target="_blank" rel="noopener"` : ""}>
+      <div class="k">${esc(r.year)}${r.role ? " · " + esc(r.role) : ""}</div>
+      <h3>${esc(r.title)}</h3><p>${esc(r.source)}</p>${url ? `<span class="go">Read the source →</span>` : ""}</${tag}>`;
+  }).join("");
+
+  const builds = (d.builds || []).map((b, i) => `
+    <div class="tile build spot rv"><div class="k"><span class="num">${String(i + 1).padStart(2, "0")}</span>${esc(b.kind)}</div>
+      <h3>${esc(b.title)}</h3><p>${esc(b.blurb)}</p>
+      ${b.examples ? `<div class="chips">${splitList(b.examples, ",").map((t) => `<span class="chip">${esc(t)}</span>`).join("")}</div>` : ""}</div>`).join("");
+
+  const skills = (d.skills || []).map((s) => `
+    <div class="card spot rv${splitList(s.items, ",").length >= 8 ? " wide" : ""}" style="position:relative;overflow:hidden"><h3>${esc(s.category)}</h3><div class="chips">${splitList(s.items, ",").map((i) => `<span class="chip">${esc(i)}</span>`).join("")}</div></div>`).join("");
+
+  const edu = (d.education || []).map((e) => `<li><div>${esc(e.title)}<small>${esc(e.school)}${e.note ? " · " + esc(e.note) : ""}</small></div><span class="r">${esc(e.dates)}</span></li>`).join("");
+  const certs = (d.certifications || []).map((c) => `<li><div>${esc(c.name)}<small>${esc(c.issuer)}</small></div><span class="r">${esc(c.date)}</span></li>`).join("");
+  const langs = (d.languages || []).map((l) => `<span class="chip">${esc(l.language)} <span style="color:var(--muted)">· ${esc(l.level)}</span></span>`).join("");
+
+  // Bento: current role, featured project, stats, place & languages
+  const now = (d.experience || []).find((j) => /present/i.test(j.end));
+  const feat = projects.find((x) => x.featured);
+  const langList = (d.languages || []).map((l) => l.language);
+  const tiles = [
+    now && `<div class="tile now w2 spot rv"><div class="k"><span class="pulse"></span>Currently</div><h3>${esc(now.role)}</h3><p>${esc(now.org)}</p><p>Since ${esc(now.start)} · ${esc(now.location)}</p></div>`,
+    feat && `<a class="tile feat w2 h2 spot rv" href="${esc(feat.url)}" target="_blank" rel="noopener"><div class="k">Featured project</div><h3>${esc(feat.title)}</h3><p>${esc(feat.blurb)}</p>
+      ${feat.tags.length ? `<div class="chips" style="margin-bottom:14px">${feat.tags.map((t) => `<span class="chip">${esc(t)}</span>`).join("")}</div>` : ""}<span class="go">View on GitHub →</span></a>`,
+    ...(d.highlights || []).map((h) => `<div class="tile stat spot rv"><b data-count="${esc(h.value)}">${esc(h.value)}</b><span>${esc(h.label)}</span></div>`),
+    (p.location || langList.length) && `<div class="tile place spot rv"><div class="k">Based in</div><b style="font-family:var(--serif);font-size:20px;font-weight:600">${esc(p.location || "")}</b>
+      ${langList.length ? `<span style="font-size:13.5px;color:var(--muted);margin-top:auto">Speaks ${langList.length} languages: ${esc(langList.join(", "))}</span>` : ""}</div>`,
+  ].filter(Boolean);
+
+  $("#app").outerHTML = `
+  <header class="hero">
+    <div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+    ${p.availability ? `<span class="eyebrow rv">${esc(p.availability)}</span>` : ""}
+    <h1 class="rv" style="--d:.05s"><span class="grad">${esc(p.name)}</span></h1>
+    <p class="headline rv" style="--d:.1s">${esc(p.headline)}</p>
+    <p class="summary rv" style="--d:.15s">${esc(p.summary)}</p>
+    <div class="meta rv" style="--d:.2s">${p.open_to ? `<span>Open to: ${esc(p.open_to)}</span>` : ""}</div>
+    <div class="cta rv" style="--d:.25s">${cta}</div>
+  </header>
+  ${tiles.length ? `<div class="bento">${tiles.join("")}</div>` : ""}
+
+  ${builds ? `<section id="build"><div class="sec-head"><h2>What I build</h2><p>Working software, made with AI assistants and checked by hand.</p></div><div class="builds">${builds}</div></section>` : ""}
+
+  <section id="experience"><div class="sec-head"><h2>Experience</h2></div><div class="timeline"><span class="tl-fill"></span>${jobs}</div></section>
+
+  ${recog ? `<section id="recognition"><div class="sec-head"><h2>Recognition</h2><p>Named in national and international publications.</p></div><div class="recog">${recog}</div></section>` : ""}
+
+  <section id="projects"><div class="sec-head"><h2>Projects</h2>${gh ? `<p>Public repos live from <a href="https://github.com/${esc(gh)}" target="_blank" rel="noopener">github.com/${esc(gh)}</a></p>` : ""}</div>${projHtml}</section>
+
+  <section id="skills"><div class="sec-head"><h2>Skills</h2></div><div class="skills-bento">${skills}</div>
+    ${langs ? `<div class="card spot rv" style="margin-top:14px;position:relative;overflow:hidden"><h3>Languages</h3><div class="chips">${langs}</div></div>` : ""}</section>
+
+  <section id="education"><div class="sec-head"><h2>Education & certifications</h2></div>
+    <div class="grid2"><div class="card"><h3>Education</h3><ul class="list">${edu}</ul></div><div class="card"><h3>Certifications</h3><ul class="list">${certs}</ul></div></div></section>
+
+  <section id="contact"><div class="sec-head"><h2>Get in touch</h2><p>Hiring, collaborating or just saying hi: messages reach my inbox.</p></div>
+    <form id="cform" novalidate>
+      <div class="row2"><label>Your name<input name="name" required maxlength="100" autocomplete="name"></label>
+      <label>Your email<input name="email" type="email" required maxlength="200" autocomplete="email"></label></div>
+      <label>Message<textarea name="message" required maxlength="4000"></textarea></label>
+      <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div style="display:flex;gap:14px;align-items:center;flex-wrap:wrap"><button class="btn primary" type="submit">Send message</button><span class="status" id="cstatus" role="status"></span></div>
+    </form></section>`;
+
+  document.querySelectorAll("#education .card, #contact form").forEach((el) => el.classList.add("rv"));
+  wireContact(p.email);
+  wireMotion();
+}
+
+function wireMotion() {
+  const root = document.documentElement;
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  // Cursor spotlight on cards
+  document.addEventListener("pointermove", (e) => {
+    const el = e.target.closest && e.target.closest(".spot");
+    if (!el) return;
+    const r = el.getBoundingClientRect();
+    el.style.setProperty("--mx", e.clientX - r.left + "px");
+    el.style.setProperty("--my", e.clientY - r.top + "px");
+  }, { passive: true });
+
+  // Count-up for stat numbers like "₹3.3 Cr", "8+ yrs", "100%"
+  const countUp = (b) => {
+    const m = String(b.dataset.count).match(/^(\D*)(\d+(?:\.\d+)?)(.*)$/);
+    if (!m || reduce) return;
+    const [, pre, num, post] = m, target = parseFloat(num), dec = (num.split(".")[1] || "").length, t0 = performance.now();
+    const step = (t) => {
+      const k = Math.min(1, (t - t0) / 1400), ease = 1 - Math.pow(1 - k, 3);
+      b.textContent = pre + (target * ease).toFixed(dec) + post;
+      if (k < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  };
+
+  // Scroll reveal
+  if (!reduce && "IntersectionObserver" in window) {
+    root.classList.add("motion");
+    const io = new IntersectionObserver((entries) => entries.forEach((en) => {
+      if (!en.isIntersecting) return;
+      en.target.classList.add("in");
+      en.target.querySelectorAll("[data-count]").forEach(countUp);
+      io.unobserve(en.target);
+    }), { rootMargin: "0px 0px -8% 0px" });
+    document.querySelectorAll(".rv").forEach((el, i) => {
+      if (el.closest(".bento")) el.style.setProperty("--d", (i % 8) * 0.06 + "s");
+      io.observe(el);
+    });
+  }
+
+  // Timeline fill: grows with scroll; dots light up as the line passes them
+  const tl = $(".timeline");
+  if (tl) {
+    const jobs = [...tl.querySelectorAll(".job")];
+    const update = () => {
+      const r = tl.getBoundingClientRect(), mark = innerHeight * 0.6;
+      const p = reduce ? 1 : Math.max(0, Math.min(1, (mark - r.top) / r.height));
+      tl.style.setProperty("--p", p);
+      const y = r.top + p * r.height;
+      jobs.forEach((j) => j.classList.toggle("on", reduce || j.getBoundingClientRect().top + 26 <= y));
+    };
+    update();
+    addEventListener("scroll", () => requestAnimationFrame(update), { passive: true });
+    addEventListener("resize", update);
+  }
+}
+
+function wireContact(email) {
+  const form = $("#cform"), status = $("#cstatus");
+  form.addEventListener("submit", async (ev) => {
+    ev.preventDefault();
+    const data = Object.fromEntries(new FormData(form));
+    if (!data.name.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email) || !data.message.trim()) {
+      status.className = "status err"; status.textContent = "Please add your name, a valid email and a message."; return;
+    }
+    if (!CONFIG.API_URL) {   // not connected to the Sheet yet: fall back to the mail app
+      location.href = `mailto:${email}?subject=${encodeURIComponent("Hello from " + data.name)}&body=${encodeURIComponent(data.message)}`;
+      return;
+    }
+    const btn = form.querySelector("button"); btn.disabled = true;
+    status.className = "status"; status.textContent = "Sending…";
+    try {
+      // text/plain keeps this a "simple" request, so Apps Script needs no CORS preflight.
+      const r = await fetch(CONFIG.API_URL, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(data) });
+      const res = await r.json();
+      if (!res.ok) throw new Error(res.error);
+      form.reset(); status.className = "status ok"; status.textContent = "Thanks! Your message was sent.";
+    } catch (e) {
+      status.className = "status err"; status.textContent = (e && e.message) || "Could not send. Please email me directly.";
+    } finally { btn.disabled = false; }
+  });
+}
+
+// theme toggle
+(() => {
+  const root = document.documentElement;
+  $("#theme").onclick = () => {
+    const dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+    root.dataset.theme = dark ? "light" : "dark";
+    try { localStorage.setItem("theme", root.dataset.theme); } catch {}
+    applyPalette(currentPalette);
+  };
+})();
+
+// ?pick=1 shows a palette switcher (for choosing; not shown to normal visitors)
+function showPicker() {
+  const box = document.createElement("div");
+  box.style.cssText = "position:fixed;right:16px;bottom:16px;z-index:50;display:flex;gap:6px;flex-wrap:wrap;max-width:calc(100vw - 32px);background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:8px;box-shadow:0 8px 24px rgba(0,0,0,.15);font:500 13px var(--sans)";
+  for (const [name, p] of Object.entries(PALETTES)) {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.title = name;
+    b.style.cssText = "display:flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:8px;padding:5px 8px;cursor:pointer;font:inherit";
+    b.innerHTML = ["bg", "chip", "accent", "ink"].map((k) => `<i style="width:12px;height:12px;border-radius:3px;background:${p.light[k]};display:inline-block;border:1px solid rgba(0,0,0,.1)"></i>`).join("") + name;
+    b.onclick = () => { applyPalette(name); [...box.children].forEach((c) => (c.style.outline = c === b ? "2px solid var(--accent)" : "")); };
+    if (name === currentPalette) b.style.outline = "2px solid var(--accent)";
+    box.appendChild(b);
+  }
+  document.body.appendChild(box);
+}
+
+(async () => {
+  try {
+    const site = await loadSite();
+    // Respect show=FALSE everywhere (the Sheet API already does; seed.json fallback needs it here).
+    for (const k of Object.keys(site)) if (Array.isArray(site[k]) && k !== "projects") site[k] = site[k].filter((r) => truthy(r.show, true));
+    const params = new URLSearchParams(location.search);
+    if (!params.get("palette") && site.profile && site.profile.palette) applyPalette(String(site.profile.palette).trim().toLowerCase());
+    if (params.get("pick")) showPicker();
+    const repos = await loadRepos((site.profile && site.profile.github) || CONFIG.GITHUB_USER);
+    render(site, mergeProjects(repos, site.projects));
+  } catch (e) {
+    console.error(e);
+    $("#app").textContent = "Could not load the site content. Please refresh.";
+  }
+})();
+</script>
+</body>
+</html>
