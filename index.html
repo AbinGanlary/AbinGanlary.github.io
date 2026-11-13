@@ -250,7 +250,7 @@ matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => appl
   <div class="wrap">
     <a class="brand" href="#top" id="brand">Resume</a>
     <div class="links">
-      <a href="#build">What I build</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a>
+      <a href="#experience">Experience</a><a href="#build">What I build</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a>
     </div>
     <button class="icon-btn" id="theme" aria-label="Toggle dark mode" title="Toggle dark mode">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
@@ -434,11 +434,11 @@ function render(d, projects) {
   </header>
   ${tiles.length ? `<div class="bento">${tiles.join("")}</div>` : ""}
 
-  ${builds ? `<section id="build"><div class="sec-head"><h2>What I build</h2><p>Working software, made with AI assistants and checked by hand.</p></div><div class="builds">${builds}</div></section>` : ""}
-
   <section id="experience"><div class="sec-head"><h2>Experience</h2></div><div class="timeline"><span class="tl-fill"></span>${jobs}</div></section>
 
   ${recog ? `<section id="recognition"><div class="sec-head"><h2>Recognition</h2><p>Named in national and international publications.</p></div><div class="recog">${recog}</div></section>` : ""}
+
+  ${builds ? `<section id="build"><div class="sec-head"><h2>What I build</h2><p>Working software, made with AI assistants and checked by hand.</p></div><div class="builds">${builds}</div></section>` : ""}
 
   <section id="projects"><div class="sec-head"><h2>Projects</h2>${gh ? `<p>Public repos live from <a href="https://github.com/${esc(gh)}" target="_blank" rel="noopener">github.com/${esc(gh)}</a></p>` : ""}</div>${projHtml}</section>
 

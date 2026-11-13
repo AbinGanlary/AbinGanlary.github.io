@@ -21,13 +21,13 @@
     },
     {
       "order": 2,
-      "value": "₹3.3 Cr",
-      "label": "Annual project budgets supported"
+      "value": "₹5.5 Cr",
+      "label": "Project budgets supported at I-TECH India, FY2022–FY2023 (combined)"
     },
     {
       "order": 3,
       "value": "100%",
-      "label": "Compliance across internal, donor & statutory audits"
+      "label": "Compliance on the internal, donor & statutory audits I supported"
     },
     {
       "order": 4,
@@ -53,7 +53,7 @@
       "kind": "iOS apps",
       "title": "Native iPhone apps",
       "blurb": "SwiftUI apps with widgets, offline storage and on-device processing, built and shipped from Windows.",
-      "examples": "YT Music, Tuck, NXBuilder"
+      "examples": "YT Music, Tuck"
     },
     {
       "order": 3,
@@ -96,13 +96,13 @@
     },
     {
       "order": 2,
-      "role": "Program Officer – Monitoring & Evaluation",
+      "role": "Program Officer – Monitoring & Evaluation (concurrent)",
       "org": "I-TECH India (University of Washington)",
       "location": "New Delhi",
       "start": "Oct 2024",
       "end": "Oct 2025",
-      "bullets": "Contributed to Sankalak 6th Edition, India's national HIV reporting publication, launched on World AIDS Day 2024.\nValidated SOCH output data with the NACO Strategic Information Division.\nBuilt Power BI dashboards and QGIS HIV-positivity maps at national and district level.\nMaintained monthly KPI dashboards and Excel tools for timesheets and leave tracking.",
-      "show": false
+      "bullets": "Held alongside the Administrative Officer role at I-TECH India.\nContributed to Sankalak 6th Edition, India's national HIV reporting publication, launched on World AIDS Day 2024; listed as a Technical Support contributor.\nValidated SOCH output data with the NACO Strategic Information Division.\nBuilt Power BI dashboards and QGIS HIV-positivity maps at national and district level.",
+      "show": true
     },
     {
       "order": 3,
@@ -111,7 +111,7 @@
       "location": "New Delhi",
       "start": "Oct 2023",
       "end": "Oct 2025",
-      "bullets": "Supported project budgets of up to ₹3.3 Cr with the Finance Manager: Tally Prime entries, POs, payment vouchers, BRS, TDS tracking and month-end close.\nKept donor-wise records in QuickBooks and Excel, filed monthly donor expenditure reports and prepared audit files, achieving full compliance.\nDrafted about 90% of procurement, staff and consultant contracts; ran vendor due diligence, AMCs, lease review and insurance.\nBuilt Excel tools (Budget vs Actual tracker, leave tracker for 20+ staff, reimbursement forms) and Power BI KPI dashboards; a new expense tracking system cut discrepancies by 15%.\nSupported national HIV programme reporting with NACO: validated SOCH data, contributed to Sankalak 6th Edition (2024) and built QGIS district maps.\nSupported Section 8 company and FCRA registration, including the designated SBI FCRA account."
+      "bullets": "Supported project budgets of ₹3.34 Cr (FY2022) and ₹2.16 Cr (FY2023) at I-TECH India with the Finance Manager: Tally Prime entries, POs, vouchers, BRS, TDS tracking and month-end close.\nKept donor-wise records in QuickBooks and Excel, filed monthly donor expenditure reports and prepared audit files, achieving full compliance.\nDrafted about 90% of procurement, staff and consultant contracts; ran vendor due diligence, AMCs, lease review and insurance.\nBuilt Excel tools (Budget vs Actual tracker, leave tracker for 20+ staff, reimbursement forms); a new expense tracking system cut discrepancies by 15%.\nSupported Section 8 company and FCRA registration, including the designated SBI FCRA account."
     },
     {
       "order": 4,
@@ -191,7 +191,7 @@
       "link": "",
       "group": "Side projects & hobbies",
       "featured": false,
-      "hide": false
+      "hide": true
     },
     {
       "repo": "first-desk",
