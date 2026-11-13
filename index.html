@@ -296,7 +296,7 @@ async function loadSite() {
     } catch (e) { console.warn("Sheet API failed, using fallback", e); }
     const cached = store.get("site"); if (cached) return cached;
   }
-  return (await fetch("seed.json")).json();
+  return (await fetch("seed.json", { cache: "no-cache" })).json();   // revalidate so edits show at once
 }
 
 async function loadRepos(user) {
